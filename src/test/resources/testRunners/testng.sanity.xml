@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HubSpot App Test automation Sanity suite" verbose="5">
+  <test  name="hub spot functional test">
+    <classes>
+      
+      <class name="NaveenTestNGSessions.LoginPageTest"/>
+      
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="HubSpot App Test automation Regression suite" verbose="5" >
+<parameter name="url" value="https://app.hubspot.com/login" />
+<parameter name="browser" value="chrome" />
+  <test name="hub spot functional test">
+  <parameter name="username" value="nagaradha@gmail.com"/>
+  <parameter name="password" value ="radha123"/>
+  
+     <classes>
+      
+      <class name="NaveenTestNGSessions.LoginPageTest"/>
+      
+      <class name="NaveenTestNGSessions.HomePageTest"/>
+    </classes>
+  </test> 
+</suite> 
